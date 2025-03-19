@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/Navbar";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-
+import SocialLinks from './components/SocialLinks';
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
       <Experience />
       {/* <Portfolio /> */}
       <Contact />
+      <SocialLinks />
       <Footer />
         </div>
     </div>
