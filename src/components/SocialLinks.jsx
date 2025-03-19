@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsPaperclip size={30} />
         </>
       ),
-      href: 'https://www.dropbox.com/scl/fi/byl5o2x68dha5xfppsmin/PBSVK_Resume.pdf?rlkey=q8dqdqvr0som555ztyjz2t8ii&st=1jq1ffft&dl=0',
+      href: 'https://www.dropbox.com/scl/fi/p95iul12mcmrg8d5xhzxa/Bhaskara_Resume.pdf?rlkey=t2c75rtelfyixqeh0s78uxj40&st=7oip8dhz&dl=0',
       style: 'rounded-br-md',
     },
   ];

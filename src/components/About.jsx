@@ -14,7 +14,7 @@ const About = () => {
             <span id="Vamsi">About Me</span>
           </h1>
           <p className="pt-4 text-xl leading-8">
-            Hello! Bhaskara Sai here, passionate about bringing great web and iOS ideas to life.  From sleek interfaces to robust backends, I build user-friendly applications with a focus on innovation.  Let's connect and see how we can create something amazing together!
+            Hello! Bhaskara Sai here, a passionate Data Analyst proficient in Python, SQL, Tableau, and Power BI, specializing in predictive modeling, statistical analysis, and data visualization, with a proven track record of leveraging data-driven insights to optimize business strategies.
             <br></br>
           </p>
         </div>

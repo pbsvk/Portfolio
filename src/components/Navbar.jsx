@@ -25,11 +25,11 @@ const NavBar = () => {
       link: "experience",
       offset: -150,
     },
-    {
-      id: 5,
-      link: "Projects",
-      offset: -150,
-    },
+    // {
+    //   id: 5,
+    //   link: "Projects",
+    //   offset: -150,
+    // },
     {
       id: 6,
       link: "contact",
