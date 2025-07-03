@@ -6,7 +6,7 @@ import profilePicture from '../assets/heroImage.png'; // Import your image
 const About = () => {
   return (
     <div name="about" className=" w-full min-h-screen flex">
-      <div className="max-w-screen-lg p-14 flex items-center"> {/* Flex container for bio and image, items-center for vertical alignment */}
+      <div className="max-w-screen-lg p-14 flex items-leading"> {/* Flex container for bio and image, items-center for vertical alignment */}
 
         {/* Bio Text Container */}
         <div className="mr-8"> {/* Add some right margin to separate text and image */}
