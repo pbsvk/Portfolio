@@ -76,13 +76,13 @@ const Home = () => {
             <a href="mailto:bsvkpadala@gmail.com">
               <HiOutlineMail size={30} className="hover:text-red-500" />
             </a>
-            <a
+            {/* <a
               href="https://www.dropbox.com/scl/fi/p95iul12mcmrg8d5xhzxa/Bhaskara_Resume.pdf?rlkey=t2c75rtelfyixqeh0s78uxj40&st=7oip8dhz&dl=0"
               target="_blank"
               rel="noopener noreferrer"
             >
               <BsPaperclip size={30} className="hover:text-red-500" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

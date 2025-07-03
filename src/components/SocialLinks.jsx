@@ -34,16 +34,16 @@ const SocialLinks = () => {
       ),
       href: 'mailto:bsvkpadala@gmail.com',
     },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsPaperclip size={30} />
-        </>
-      ),
-      href: 'https://www.dropbox.com/scl/fi/p95iul12mcmrg8d5xhzxa/Bhaskara_Resume.pdf?rlkey=t2c75rtelfyixqeh0s78uxj40&st=7oip8dhz&dl=0',
-      style: 'rounded-br-md',
-    },
+    // {
+    //   id: 4,
+    //   child: (
+    //     <>
+    //       Resume <BsPaperclip size={30} />
+    //     </>
+    //   ),
+    //   href: 'https://www.dropbox.com/scl/fi/p95iul12mcmrg8d5xhzxa/Bhaskara_Resume.pdf?rlkey=t2c75rtelfyixqeh0s78uxj40&st=7oip8dhz&dl=0',
+    //   style: 'rounded-br-md',
+    // },
   ];
 
   return (
@@ -53,13 +53,13 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 bg-black ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 " +
+              "flex justify-between items-center w-40 h-14 px-4 bg-gray ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 " +
               style
             }
           >
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex justify-between items-center w-full text-red-500"
               download={download}
               target="_blank"
               rel="noreferrer"
