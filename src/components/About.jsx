@@ -10,10 +10,10 @@ const About = () => {
 
         {/* Bio Text Container */}
         <div className="mr-8"> {/* Add some right margin to separate text and image */}
-          <h1 className="text-6xl font-bold">
+          <h1 className="education-title text-6xl font-bold">
             <span id="Vamsi">About Me</span>
           </h1>
-          <p className="pt-4 text-xl leading-8">
+          <p className="course-item pt-4 text-xl leading-8">
             Hello! I'm a Software Engineer with expertise in full-stack development, cloud infrastructure, and a specialization in iOS Development. I’m passionate about building scalable software systems, creating seamless mobile experiences, and leveraging AI to solve real-world problems.
             <br></br>
           </p>

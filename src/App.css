@@ -9,14 +9,16 @@
   html {
     font-family: 'Poppins';
   }
-  
+
   body {
-    color: #ffffff;
+    @apply text-black bg-white;
   }
-  
-  #Vamsi {
-    background: linear-gradient(to bottom, transparent 50%, #d10808d5 50%);
+
+  .dark body {
+    @apply text-white bg-black;
   }
+
+  #Vamsi,
   #pbsvkwebsite {
     background: linear-gradient(to bottom, transparent 50%, #d10808d5 50%);
   }
@@ -32,9 +34,10 @@
   text-align: center;
   font-size: 18px;
   background: #f1f0f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* make it dark aware */
+}
+.dark .mySwiper .swiper-slide {
+  background: #1a202c; /* dark gray-900 */
 }
 
 .mySwiper .swiper-slide img {
@@ -53,7 +56,7 @@
 
 .timeline-header {
   text-align: center;
-  color: #fff;
+  @apply text-black dark:text-white;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 50px;
@@ -97,13 +100,20 @@
   box-shadow: 0 0 10px rgba(159, 55, 219, 0.5);
 }
 
+.dark .timeline-item::before {
+  border-color: #000; /* invert border */
+}
+
 .timeline-date {
   min-width: 140px;
   padding-right: 30px;
   text-align: right;
   font-weight: 600;
+  color: #000;
+}
+
+.dark .timeline-date {
   color: #fff;
-  font-size: 1.1rem;
 }
 
 .timeline-content {
@@ -115,9 +125,18 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.dark .timeline-content {
+  background: rgba(31, 41, 55, 0.95); /* bg-gray-900 with opacity */
+  box-shadow: 0 4px 15px rgba(255 255 255 / 0.15);
+}
+
 .timeline-content:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px #f1f0f0;
+}
+
+.dark .timeline-content:hover {
+  box-shadow: 0 6px 20px rgba(255 255 255 / 0.25);
 }
 
 /* Education Section */
@@ -140,9 +159,14 @@
   font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 3rem;
-  color: #ffffff;
+  color: #000;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(255 255 255 / 0.2);
+}
+
+.dark .education-title {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0 0 0 / 0.4);
 }
 
 .institution-name {
@@ -157,6 +181,10 @@
   color: #4a5568;
   margin-bottom: 1.25rem;
   font-weight: 500;
+}
+
+.dark .degree-name {
+  color: #a0aec0; /* lighter gray */
 }
 
 /* Course and Skills Styles */
@@ -177,6 +205,11 @@
   padding: 0.75rem 0;
   color: #4a5568;
   border-bottom: 1px solid #000000;
+}
+
+.dark .course-item {
+  color: #a0aec0;
+  border-bottom: 1px solid #fff;
 }
 
 .course-item:last-child {

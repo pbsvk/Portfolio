@@ -51,7 +51,7 @@ const Portfolio = () => {
     <div name="Projects" className="w-full min-h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <h1 className="text-6xl inline font-bold">
+          <h1 className=" education-title text-6xl inline font-bold">
             <span id="Vamsi">Projects</span>
           </h1>
         </div>

@@ -19,7 +19,7 @@ const Home = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(timer);
   }, [images.length]);
 
@@ -35,23 +35,21 @@ const Home = () => {
                 key={index}
                 src={img}
                 alt="Profile"
-                className={`absolute inset-0 border-4 border-red rounded-full object-contain w-full h-full transition-opacity duration-500 ${
-                  index === currentImageIndex ? "opacity-100" : "opacity-0"
-                }`}
+               className={`absolute inset-0 border-4 border-red-500 rounded-full object-contain w-full h-full transition-opacity duration-500 
+                ${index === currentImageIndex ? "opacity-100" : "opacity-0"}`}
               />
             ))}
           </div>
-          <h1 className="pt-2 pb-8 text-6xl sm:text-7xl font-bold text-white">
+          <h1 className="education-title pt-2 pb-8 text-6xl sm:text-7xl font-bold">
             Hi there, I'm{" "}
             <span
               id="Vamsi"
-              className="bg-gradient-to-b from-transparent to-yellow-300"
             >
-              Bhaskara Sai Vamsi Krishna Padala!
+              Bhaskara Padala!
             </span>
             .
           </h1>
-          <h2 className="text-xl max-w-md font-semibold text-purple1 whitespace-nowrap">
+          <h2 className="text-xl max-w-md font-semibold text-gray-500 whitespace-nowrap">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -60,32 +58,32 @@ const Home = () => {
               }}
             />
           </h2>
-          {/* <div className="py-4 flex space-x-4">
+          <div className="py-4 flex space-x-4 text-gray-500">
             <a
               href="https://github.com/pbsvk"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={30} className="hover:text-purple1" />
+              <FaGithub size={30} className="hover:text-red-500" />
             </a>
             <a
               href="https://www.linkedin.com/in/pbsvk/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={30} className="hover:text-purple1" />
+              <FaLinkedin size={30} className="hover:text-red-500" />
             </a>
             <a href="mailto:bsvkpadala@gmail.com">
-              <HiOutlineMail size={30} className="hover:text-purple1" />
+              <HiOutlineMail size={30} className="hover:text-red-500" />
             </a>
             <a
               href="https://www.dropbox.com/scl/fi/p95iul12mcmrg8d5xhzxa/Bhaskara_Resume.pdf?rlkey=t2c75rtelfyixqeh0s78uxj40&st=7oip8dhz&dl=0"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsPaperclip size={30} className="hover:text-purple1" />
+              <BsPaperclip size={30} className="hover:text-red-500" />
             </a>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
