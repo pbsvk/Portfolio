@@ -5,18 +5,20 @@ const Skills = () => {
   const experienceTimelineData = [
     {
       key: "001",
-      dateText: "May 2024 - Dec 2024",
+      dateText: "May 2024 - Present",
       title: "AutoTechMation Inc",
-      subtitle: "Data Analyst Intern",
+      subtitle: "SWE",
       details: [
-        "Location: Atlanta, GA, USA",
-        "Achieved 95% Accuracy in Partner Segmentation by analyzing 50k+ structured/unstructured datasets using Python (Pandas, NumPy), enabling targeted strategies for high-value resellers.",
-        "Reduced Client Onboarding Risks by 30% through predictive models (logistic regression, k-means clustering) forecasting partner risk profiles.",
-        "Automated 20+ Hours/Month of Manual Work by extracting partner capabilities from unstructured text using NLP (spaCy, GPT-3.5) for AI-driven ”Partner 360” profiles.",
-        "Improved Dataset Accuracy by 25% by streamlining monthly data refreshes with Python automation, enabling real-time market insights.",
-        "Boosted Client Revenue by 12% via dynamic Excel/Google Sheets reports tracking certifications and sales trends for 10+ enterprise clients.",
-        "Accelerated Executive Decision-Making by translating complex data into actionable insights, cutting partner onboarding time by 20%."
-      ]
+  "Designed and developed a full-stack web platform using React, Node.js, TypeScript, and PostgreSQL, enabling three-tier user role management (Super Admin, Client Admin, Client User) with tailored access and workflows—resulting in 100% secure and scalable user segregation.", 
+  "Built and deployed a dynamic dashboard system on AWS, featuring interactive charts and real-time analytics (country-wise, vendor-wise) that enhanced client data insights and reduced decision-making time by 20%.",
+  "Engineered a report generation engine using Python and Node.js to dynamically filter partner data across vendors, regions, and specializations, exporting to Excel—cutting client reporting efforts by 60%.",
+  "Integrated email verification and admin approval pipelines for user onboarding using AWS SES and backend logic in Node.js—achieving a 100% validated onboarding flow and reducing spam registrations.",
+  "Developed internal user management tools with fine-grained permission controls (e.g., view/download/generate reports) using React and PostgreSQL, streamlining team management for enterprise clients.",
+  "Automated supplier data scraping and ingestion from public partner directories using Python and scraping libraries (BeautifulSoup, Requests), saving 20+ hours/month of manual data entry and ensuring fresh data monthly.",
+  "Optimized data refresh pipelines and zip code formatting logic, increasing report accuracy by 25% and eliminating inconsistencies across dashboards, exports, and country aggregations.",
+  "Collaborated in agile sprints with cross-functional teams to address 30+ UI/UX bugs, implement feature enhancements (e.g., re-download history, vendor filter clarity, tutorial UI), and align designs with client feedback.",
+  "Contributed to system architecture planning to support future enhancements like notifications, user groups, and data retention policies—laying groundwork for a scalable enterprise-grade SaaS tool."
+]
     },
     {
       key: "002",
@@ -25,7 +27,7 @@ const Skills = () => {
       subtitle: "Graduate Course Assistant – Advanced Algorithms",
       details: [
         "Location: Hoboken, New Jersey, United States",
-        "Mentored 100+ graduate students in data-intensive algorithm implementation and debugging, reinforcing coding standards, data optimization practices, and performance tuning.",
+        "Mentored 100+ graduate students in data-intensive algorithm implementation and debugging, reinforcing coding standards and performance tuning.",
         "Prepare course materials, lead office hours, and assist with grading",
         "Make challenging concepts more accessible and engaging for everyone"
       ]
@@ -40,23 +42,8 @@ const Skills = () => {
         "Analyzed and optimized algorithmic performance for assignments involving complex data structures, resulting in improved runtime eﬀiciency (40%+ speed gains) using Python.",
         "Make challenging concepts more accessible and engaging for everyone"
       ]
-    },
-    {
-      key: "004",
-      dateText: "Jun 2020 - Aug 2023",
-      title: "Sri Sai Viveka Technologies",
-      subtitle: "Business Intelligence Analyst",
-      details: [
-        "Location: Hyderabad, Telangana, India",
-        "Achieved 18% YoY Sales Growth toward 20 crore rupees target by analyzing 15+ machinery/consumable product lines using Power BI, optimizing pricing strategies for underperforming regions (Andhra/Telangana).",
-        "Reduced Inventory Costs by 2.3M rupees/year by building Tableau dashboards to forecast demand for 10+ SKUs (e.g., Steel Strapping, Shrink Films), minimizing overstocking.",
-        "Improved Customer Retention by 25% through Python/SQL-driven segmentation of 500+ B2B clients, enabling targeted campaigns for high-margin products (PET Strapping Tools)",
-        "Increased Machinery Uptime by 30% by designing vendor performance scorecards to evaluate delivery timelines and equipment quality for critical machinery (Strapping Machines, Conveyors).",
-        "Expanded Market Reach into Bangladesh/Sri Lanka, driving 12% sales growth for Carton Sealers/CordStraps through regional demand analysis."
-      ]
     }
   ];
-
   return (
     <section 
       name="experience" 

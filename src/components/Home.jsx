@@ -42,12 +42,12 @@ const Home = () => {
             ))}
           </div>
           <h1 className="pt-2 pb-8 text-6xl sm:text-7xl font-bold text-white">
-            Hi, I'm{" "}
+            Hi there, I'm{" "}
             <span
               id="Vamsi"
               className="bg-gradient-to-b from-transparent to-yellow-300"
             >
-              Bhaskara Padala
+              Bhaskara Sai Vamsi Krishna Padala!
             </span>
             .
           </h1>
@@ -55,7 +55,7 @@ const Home = () => {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("I am a student, creator and tech enthusiast.")
+                  .typeString("Crafting code with purpose and precision.")
                   .start();
               }}
             />
