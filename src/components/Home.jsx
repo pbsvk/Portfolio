@@ -53,7 +53,7 @@ const Home = () => {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Crafting code with purpose and precision.")
+                  .typeString("Designing the Future of Connection")
                   .start();
               }}
             />
